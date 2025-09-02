@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {
+      "title": "Data Presentation",
+      "subtitle": "Generated from input.csv"
+    },
+    {
+      "title": "Slide 1",
+      "subtitle": "This is auto-generated content for slide 1."
+    },
+    {
+      "title": "Slide 2",
+      "subtitle": "This is auto-generated content for slide 2."
+    },
+    {
+      "title": "Slide 3",
+      "subtitle": "This is auto-generated content for slide 3."
+    }
+  ]
+}
