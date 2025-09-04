@@ -1,0 +1,154 @@
+{
+  "main_title": "Dataset Overview & Analysis",
+  "summary_stats": {
+    "total_records": 150,
+    "total_variables": 6,
+    "completeness_percentage": 100.0
+  },
+  "": {
+    "content": "\u2022 Analytical Capabilities\n  - Statistical analysis ready\n  - Trend and correlation studies\n  - Predictive modeling potential\n  - Segmentation analysis available\n  - Classification studies possible\n  - Mixed-type analysis supported\n\n\u2022 Business Value Indicators\n  - Focused dataset for targeted analysis\n  - Focused variable set for specific analysis\n  - High reliability for business decisions\n\n\u2022 Key Applications\n  - Exploratory data analysis\n  - Pattern recognition studies\n  - Statistical modeling projects\n  - Business intelligence reporting",
+    "structured_data": {
+      "analytical_capabilities": {
+        "statistical_analysis": true,
+        "segmentation_analysis": true,
+        "mixed_type_analysis": true
+      },
+      "business_value": {
+        "data_scale": "Focused",
+        "variable_richness": "Focused",
+        "reliability": "High"
+      }
+    }
+  },
+  "data_type_separation": {
+    "numerical_columns": [
+      "Unnamed: 0",
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "categorical_columns": [
+      "species"
+    ],
+    "datetime_columns": []
+  },
+  "full_analysis": {
+    "basic_info": {
+      "total_rows": 150,
+      "total_columns": 6,
+      "file_name": "input.csv",
+      "columns": [
+        "Unnamed: 0",
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width",
+        "species"
+      ]
+    },
+    "data_types": {
+      "numerical_columns": [
+        "Unnamed: 0",
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "categorical_columns": [
+        "species"
+      ],
+      "datetime_columns": []
+    },
+    "missing_values": {
+      "total_missing": 0,
+      "columns_with_missing": {},
+      "missing_percentages": {}
+    },
+    "numerical_summary": {
+      "Unnamed: 0": {
+        "count": 150.0,
+        "mean": 74.5,
+        "std": 43.445367992456916,
+        "min": 0.0,
+        "25%": 37.25,
+        "50%": 74.5,
+        "75%": 111.75,
+        "max": 149.0
+      },
+      "sepal_length": {
+        "count": 150.0,
+        "mean": 5.843333333333334,
+        "std": 0.828066127977863,
+        "min": 4.3,
+        "25%": 5.1,
+        "50%": 5.8,
+        "75%": 6.4,
+        "max": 7.9
+      },
+      "sepal_width": {
+        "count": 150.0,
+        "mean": 3.0540000000000003,
+        "std": 0.4335943113621737,
+        "min": 2.0,
+        "25%": 2.8,
+        "50%": 3.0,
+        "75%": 3.3,
+        "max": 4.4
+      },
+      "petal_length": {
+        "count": 150.0,
+        "mean": 3.758666666666666,
+        "std": 1.7644204199522626,
+        "min": 1.0,
+        "25%": 1.6,
+        "50%": 4.35,
+        "75%": 5.1,
+        "max": 6.9
+      },
+      "petal_width": {
+        "count": 150.0,
+        "mean": 1.1986666666666668,
+        "std": 0.7631607417008411,
+        "min": 0.1,
+        "25%": 0.3,
+        "50%": 1.3,
+        "75%": 1.8,
+        "max": 2.5
+      }
+    },
+    "categorical_insights": {
+      "species": {
+        "unique_values": 3,
+        "most_common_values": {
+          "setosa": 50,
+          "versicolor": 50,
+          "virginica": 50
+        }
+      }
+    },
+    "data_quality": {
+      "duplicate_rows": 0,
+      "completeness_score": 100.0
+    }
+  },
+  "generation_timestamp": "2025-09-04T22:41:02.677808",
+  "processing_info": {
+    "job_id": "01d5e7c6",
+    "file_path": "storage/uploads/01d5e7c6/input.csv",
+    "processing_status": "completed"
+  },
+  "data_type_tuples": {
+    "numerical": [
+      "Unnamed: 0",
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "categorical": [
+      "species"
+    ],
+    "datetime": []
+  }
+}
